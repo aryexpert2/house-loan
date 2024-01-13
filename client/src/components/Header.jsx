@@ -12,7 +12,7 @@ export default function Header() {
                 <span className="text-slate-700">Loan</span>
             </h1>
           </Link>
-          <form className='bg-slate-100 p-2 rounded-lg flex flex-row items-center justify-center'>
+          <form className='bg-slate-100 p-2 rounded-lg flex flex-row items-center justify-center border hover:border-slate-300'>
               <input className='bg-transparent focus:outline-none w-24 sm:w-64' type="text" placeholder="Search..." />
               <FaSearch className='text-slate-600 mr-2' />
           </form>
